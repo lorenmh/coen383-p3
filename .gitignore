@@ -1,0 +1,16 @@
+.DS_Store
+
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+
+*.sw[op]
+*.o
+*.bin
+
+.xcodeproj
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+*.pbxproj
