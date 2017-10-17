@@ -5,9 +5,9 @@ CMD=$(CC) $(CFLAGS)
 COMPILE=$(CMD) -g -c
 
 #FILES=Main.o MinHeap.o Process.o RandomNumberGenerator.o Output.o Scheduler.o
-FILES=main.o
+FILES=main.o customer.o seller.o
 
-all: main.o
+all: main.o customer.o seller.o
 	$(CMD) $(FILES) -g -o app.bin
 
 clean:
@@ -18,3 +18,6 @@ main.o: main.c
 
 customer.o: customer.c
 	$(COMPILE) customer.c
+
+seller.o: seller.c
+	$(COMPILE) seller.c
