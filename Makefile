@@ -15,3 +15,6 @@ clean:
 
 main.o: main.c
 	$(COMPILE) main.c
+
+customer.o: customer.c
+	$(COMPILE) customer.c
