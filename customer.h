@@ -13,3 +13,7 @@ typedef struct {
     int seller_id;
     int arrival_time;
 } customer_t;
+
+customer_t *create_customer_queue(int num_customers);
+
+#endif
