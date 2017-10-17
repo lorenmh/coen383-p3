@@ -9,5 +9,7 @@ typedef enum {
 
 typedef struct {
     priority_t priority;
+    int seat_id;
+    int seller_id;
     int arrival_time;
 } customer_t;
