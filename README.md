@@ -1,16 +1,14 @@
 # Types
-`customer_t`
-`typedef enum { HIGH_PRIORITY, MEDIUM_PRIORITY, LOW_PRIORITY } priority_t`
-`seat_t`: simple `{ row, col }` struct or something?
+* `customer_t`
+* `typedef enum { HIGH_PRIORITY, MEDIUM_PRIORITY, LOW_PRIORITY } priority_t`
+* `seat_t`: simple `{ row, col }` struct or something?
 
 # Functions
-`customer_t *create_customer_queue(int num_customers, priority_t priority)`: Creates an array of length `num_customers`with customers in it. Priority is whether it's High, Medium or Low. Each has different requirements for wait time. No need for `free_XXXX`, I dont think the professor cares about mem leaks.
+* `customer_t *create_customer_queue(int num_customers, priority_t priority)`: Creates an array of length `num_customers`with customers in it. Priority is whether it's High, Medium or Low. Each has different requirements for wait time. No need for `free_XXXX`, I dont think the professor cares about mem leaks.
+* `void seller(customer_t *queue, priority_t priority, int id)`: this is the 'threaded function'. This is what we are going to pass to `pthread_create`, it will simulate a sales line. It will print to output.
+* `seat_t seat_finder(priority_t priority)`: Based on how the professor has worded this, this is supposed to use a condition variable (like the consumer producer stuff in class), with 4 cursors. Needs to be thread safe of course.
 
-`void seller(customer_t *queue, priority_t priority, int id)`: this is the 'threaded function'. This is what we are going to pass to `pthread_create`, it will simulate a sales line. It will print to output.
-
-`seat_t seat_finder(priority_t priority)`: Based on how the professor has worded this, this is supposed to use a condition variable (like the consumer producer stuff in class), with 4 cursors. Needs to be thread safe of course.
-
-#Seat Finder
+# Seat Finder
 Imagine there are 12 seats, this is what the cursors will look like
 
     1   2   3   4   5   6   7   8   9   10  11  12
