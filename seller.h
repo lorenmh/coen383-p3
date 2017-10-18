@@ -1,6 +1,13 @@
 #ifndef SELLER_H
 #define SELLER_H
 
-void seller(customer_t *queue, priority_t priority, int id);
+typedef struct {
+    customer_t *queue;
+    priority_t priority;
+    char name[3];
+    int id;
+} seller_args_t;
+
+void *seller(void *args);
 
 #endif

@@ -16,8 +16,8 @@ clean:
 main.o: main.c
 	$(COMPILE) main.c
 
-customer.o: customer.c
+customer.o: customer.c customer.h
 	$(COMPILE) customer.c
 
-seller.o: seller.c
+seller.o: seller.c seller.h
 	$(COMPILE) seller.c

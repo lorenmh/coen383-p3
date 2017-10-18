@@ -1,7 +1,13 @@
+#include <stdio.h>
 #include <stdlib.h>
 
 #include "customer.h"
 #include "seller.h"
 
-void seller(customer_t *queue, priority_t priority, int id) {
+void *seller(void *seller_args) {
+    seller_args_t args = *((seller_args_t *) seller_args);
+
+    printf("{%s} id: %d, priority: %d\n", args.name, args.id, args.priority);
+
+    return NULL;
 }
