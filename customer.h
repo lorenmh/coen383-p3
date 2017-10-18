@@ -14,6 +14,12 @@ typedef struct {
     int arrival_time;
 } customer_t;
 
-customer_t *create_customer_queue(int num_customers);
+typedef struct {
+    size_t size;
+    customer_t *buf;
+} customer_queue_t;
+
+customer_queue_t *create_customer_queue(int num_customers);
+void print_customer_queue(customer_queue_t *queue);
 
 #endif

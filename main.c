@@ -15,6 +15,10 @@ int main(int argc, char *argv[]) {
 
     //printf("Num Customers: %d\n", num_customers);
 
+    customer_queue_t *queue = create_customer_queue(10);
+    print_customer_queue(queue);
+
+
     seller_args_t args[10];
     pthread_t threads[10];
 
