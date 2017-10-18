@@ -7,37 +7,47 @@
 
 #include "customer.h"
 #include "seller.h"
+#include "Seat.h"
+
 
 int main(int argc, char *argv[]) {
-    srand(time(NULL));
-    //if (argc != 2) return 1;
-    //int num_customers = atoi(argv[1]);
-
-    //printf("Num Customers: %d\n", num_customers);
-
-    seller_args_t args[10];
-    pthread_t threads[10];
-
-    for (int i = 0; i < 10; i++) {
-        if (i == 0) {
-            args[i] = (seller_args_t) { NULL, HIGH_PRIORITY, {0}, i };
-            sprintf(args[i].name, "H");
-        } else if (i > 0 && i < 4) {
-            args[i] = (seller_args_t) { NULL, MEDIUM_PRIORITY, {0}, i };
-            sprintf(args[i].name, "M%d", i);
-        } else {
-            args[i] = (seller_args_t) { NULL, LOW_PRIORITY, {0}, i };
-            sprintf(args[i].name, "L%d", i - 3);
-        }
-
-        if (pthread_create(&threads[i], NULL, seller, &args[i])) {
-            printf("error creating thread\n");
-        }
+    seller_entry_t price_H, price_L, price_M;
+    seat_t seat_table[100];
+    for (int i = 0; i < 100; ++i) {
+        seat_table->available = false;
+        pthread_spin_init(&(seat_table->lock), 0);
     }
+    seller_entry_init(&price_H, 1, 'H', seat_table);
+    seller_entry_init(&price_M, 3, 'M', seat_table);
+    seller_entry_init(&price_L, 6, 'L', seat_table);
 
-    for (int i = 0; i < 10; i++) {
-        if (pthread_join(threads[i], NULL)) {
-            printf("error joining thread\n");
-        }
-    }
+    pthread_barrier_t customer_start_signal;
+    pthread_barrier_init(&customer_start_signal, NULL, 3);
+    bool all_seats_sold = false;
+    pthread_mutex_t rand_mutex;
+    pthread_mutex_init(&rand_mutex, NULL);
+
+    srand((unsigned int)time(NULL));
+    unsigned int M_seed = (unsigned int)rand();
+    unsigned int L_seed = (unsigned int)rand();
+    unsigned int H_seed = (unsigned int)rand();
+
+    customer_thread_arg arg_M;
+    customer_thread_arg arg_H;
+    customer_thread_arg arg_L;
+    int N;
+
+    customer_thread_arg_init(&arg_H, N, &price_H, H_seed, &rand_mutex, &customer_start_signal, &all_seats_sold);
+    customer_thread_arg_init(&arg_M, N, &price_M, M_seed, &rand_mutex, &customer_start_signal, &all_seats_sold);
+    customer_thread_arg_init(&arg_L, N, &price_L, L_seed, &rand_mutex, &customer_start_signal, &all_seats_sold);
+
+    pthread_t customer_threads[3];
+    pthread_create(&(customer_threads[0]), NULL, customer_creating_thread, &arg_M);
+    pthread_create(&(customer_threads[0]), NULL, customer_creating_thread, &arg_H);
+    pthread_create(&(customer_threads[0]), NULL, customer_creating_thread, &arg_L);
+
+
+
+
+
 }
