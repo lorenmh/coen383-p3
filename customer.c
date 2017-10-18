@@ -2,6 +2,22 @@
 
 #include "customer.h"
 
+int customer_comparator(const void *a, const void *b) {
+    customer_t *cust_a = (customer_t *) a;
+    customer_t *cust_b = (customer_t *) b;
+
+    return cust_a->arrival_time - cust_b->arrival_time;
+}
+
 customer_t *create_customer_queue(int num_customers) {
-    return NULL;
+    size_t customer_t_sz = sizeof(customer_t);
+    customer_t *queue = calloc(num_customers, customer_t_sz);
+
+    for (int i = 0; i < num_customers; i++) {
+        queue[i].arrival_time = rand() % MAX_ARRIVAL_TIME;
+    }
+
+    qsort(queue, num_customers, customer_t_sz, customer_comparator);
+
+    return queue;
 }

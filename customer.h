@@ -1,6 +1,8 @@
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
+#define MAX_ARRIVAL_TIME 100
+
 typedef enum {
     HIGH_PRIORITY,
     MEDIUM_PRIORITY,
@@ -8,9 +10,7 @@ typedef enum {
 } priority_t;
 
 typedef struct {
-    priority_t priority;
-    int seat_id;
-    int seller_id;
+    char name[5];
     int arrival_time;
 } customer_t;
 
