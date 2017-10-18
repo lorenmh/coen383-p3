@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-std=c99
 CMD=$(CC) $(CFLAGS)
 
-COMPILE=$(CMD) -g -c
+COMPILE=$(CMD) -g -c -pthread
 
 #FILES=Main.o MinHeap.o Process.o RandomNumberGenerator.o Output.o Scheduler.o
 FILES=main.o customer.o seller.o
