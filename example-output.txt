@@ -1,0 +1,10 @@
+{H} id: 0, priority: 0
+{M2} id: 2, priority: 1
+{M1} id: 1, priority: 1
+{M3} id: 3, priority: 1
+{L1} id: 4, priority: 2
+{L2} id: 5, priority: 2
+{L3} id: 6, priority: 2
+{L4} id: 7, priority: 2
+{L5} id: 8, priority: 2
+{L6} id: 9, priority: 2
