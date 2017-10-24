@@ -1,7 +1,7 @@
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
 
-#define MAX_ARRIVAL_TIME 100
+#define MAX_ARRIVAL_TIME 59
 
 typedef enum {
     HIGH_PRIORITY,
@@ -12,6 +12,7 @@ typedef enum {
 typedef struct {
     char name[5];
     int arrival_time;
+    int tickets_wanted;
 } customer_t;
 
 typedef struct {
@@ -20,6 +21,8 @@ typedef struct {
 } customer_queue_t;
 
 customer_queue_t *create_customer_queue(int num_customers);
+customer_queue_t *create_completed_queue(int num_customers);
+
 void print_customer_queue(customer_queue_t *queue);
 
 #endif

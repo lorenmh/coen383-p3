@@ -7,20 +7,25 @@
 
 #include "customer.h"
 #include "seller.h"
+#include "seatFinder.h"
 
 int main(int argc, char *argv[]) {
     srand(time(NULL));
+
     //if (argc != 2) return 1;
     //int num_customers = atoi(argv[1]);
 
     //printf("Num Customers: %d\n", num_customers);
 
-    customer_queue_t *queue = create_customer_queue(10);
-    print_customer_queue(queue);
+    //customer_queue_t *queue = create_customer_queue(10);
+    //print_customer_queue(queue);
 
 
     seller_args_t args[10];
     pthread_t threads[10];
+    
+
+    initLock();
 
     for (int i = 0; i < 10; i++) {
         if (i == 0) {
@@ -44,4 +49,8 @@ int main(int argc, char *argv[]) {
             printf("error joining thread\n");
         }
     }
+
+    removeLock();
+
+
 }
