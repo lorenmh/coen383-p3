@@ -10,7 +10,7 @@ typedef enum {
 } priority_t;
 
 typedef struct {
-    char name[5];
+    char name[10];
     int arrival_time;
     int tickets_wanted;
 } customer_t;

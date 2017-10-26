@@ -23,8 +23,9 @@ int main(int argc, char *argv[]) {
 
     seller_args_t args[10];
     pthread_t threads[10];
-    int seats [ROW][COLUMN] = {0};
-
+    //int seats [ROW][COLUMN] = {0};
+    
+    initSeats();    
     initLock();
 
     for (int i = 0; i < 10; i++) {
@@ -49,6 +50,8 @@ int main(int argc, char *argv[]) {
             printf("error joining thread\n");
         }
     }
+
+
 
     removeLock();
 

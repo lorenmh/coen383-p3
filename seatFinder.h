@@ -9,15 +9,18 @@ extern const int HSLEEP[2];
 extern const int MSLEEP[3];
 extern const int LSLEEP[4];
 
-int seats [ROW][COLUMN];
+const char* seat[][COLUMN];
+
 
 void *seatFinder(void *seller_args);
 void thread_sleep(void *seller_args);
-void printSeats(int seats[][COLUMN], int rowMax, int colMax);
+void printSeats();
 
 void initLock();
 
-void findSeat(void *seller_args , int seats[][COLUMN]);
+void initSeats();
+
+void findSeat(void *seller_args);
 
 void initSleepTime();
 

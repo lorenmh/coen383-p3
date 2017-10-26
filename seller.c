@@ -18,12 +18,10 @@ void *seller(void *seller_args) {
     args.completed_queue = completed_queue;
 
 	for(int i = 0; i < args.current_queue->size; i++){
-		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,i);
+		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,i+1);
 	}
-
 
     seatFinder(&args);
 
-    printf("{%s} has sold {%lu} with {%zu} customers remaining\n", args.name, 10 - args.current_queue->size, args.current_queue->size);
     return NULL;
 }
