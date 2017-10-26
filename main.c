@@ -23,19 +23,19 @@ int main(int argc, char *argv[]) {
 
     seller_args_t args[10];
     pthread_t threads[10];
-    
+    int seats [ROW][COLUMN] = {0};
 
     initLock();
 
     for (int i = 0; i < 10; i++) {
         if (i == 0) {
-            args[i] = (seller_args_t) { NULL, HIGH_PRIORITY, {0}, i };
+            args[i] = (seller_args_t) { NULL, NULL,HIGH_PRIORITY, {0}, i };
             sprintf(args[i].name, "H");
         } else if (i > 0 && i < 4) {
-            args[i] = (seller_args_t) { NULL, MEDIUM_PRIORITY, {0}, i };
+            args[i] = (seller_args_t) { NULL, NULL,MEDIUM_PRIORITY, {0}, i };
             sprintf(args[i].name, "M%d", i);
         } else {
-            args[i] = (seller_args_t) { NULL, LOW_PRIORITY, {0}, i };
+            args[i] = (seller_args_t) { NULL, NULL,LOW_PRIORITY, {0}, i };
             sprintf(args[i].name, "L%d", i - 3);
         }
 

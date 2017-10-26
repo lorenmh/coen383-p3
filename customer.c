@@ -48,7 +48,7 @@ customer_queue_t *create_completed_queue(int num_customers){
 void print_customer_queue(customer_queue_t *queue) {
     printf("[ ");
     for (int i = 0; i < queue->size; i++) {
-        printf("{at: %d with %d tickets} ", queue->buf[i].arrival_time,queue->buf[i].tickets_wanted);
+        printf("{%s at: %d} ", queue->buf[i].name,queue->buf[i].arrival_time);
     }
     printf("]\n");
 }

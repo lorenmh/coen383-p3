@@ -17,16 +17,20 @@ void *seller(void *seller_args) {
     customer_queue_t *completed_queue = create_completed_queue(10);
     args.current_queue = current_queue;
     args.completed_queue = completed_queue;
-/*
-	pthread_mutex_lock(&lock);
-    printf("Seller {%s} Queue:  ", args.name);
-    print_customer_queue(args.current_queue);
-    printf("%s\n", args.name);
-	pthread_mutex_unlock(&lock);
-*/
+
+	for(int i = 0; i < args.current_queue->size; i++){
+		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,i);
+	}
+
+
+	//pthread_mutex_lock(&lock);
+    //printf("Seller {%s} Queue:  ", args.name);
+    //print_customer_queue(args.current_queue);
+    //printf("%s\n", args.name);
+	//pthread_mutex_unlock(&lock);
+
     seatFinder(&args);
 
     printf("{%s} has sold {%lu} with {%zu} customers remaining\n", args.name, 10 - args.current_queue->size, args.current_queue->size);
-    printf("The ending time is at {%d}\n", ending_quanta);
     return NULL;
 }
