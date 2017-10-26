@@ -10,7 +10,6 @@ extern const int MSLEEP[3];
 extern const int LSLEEP[4];
 
 int seats [ROW][COLUMN];
-int middle_flag;
 
 void *seatFinder(void *seller_args);
 void thread_sleep(void *seller_args);

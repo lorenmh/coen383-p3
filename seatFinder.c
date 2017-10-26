@@ -9,6 +9,7 @@
 #include "customer.h"
 #include "seller.h"
 #include "seatFinder.h"
+#include "event.h"
 
 static int numTickets = SEAT_BUF_SIZE;
 
@@ -41,24 +42,21 @@ void thread_sleep(void *seller_args){
 	if(args.priority == HIGH_PRIORITY){
 		rand_t = rand() % 2;
 		s_time = HSLEEP[rand_t];
-		//printf(" High %d\n", s_time);
-		sleep(1);
+		sleep(s_time);
 	} else if(args.priority == MEDIUM_PRIORITY){
 		rand_t = rand() % 3;
 		s_time = MSLEEP[rand_t];
-		//printf("Mid %d\n", s_time);
-		sleep(1);
+		sleep(s_time);
 	} else if(args.priority == LOW_PRIORITY){
 		rand_t = rand() % 4;
 		s_time = LSLEEP[rand_t];
-		//printf("Low %d\n", s_time);
-		sleep(1);
+		sleep(s_time);
 	}
 }
 
 void printSeats(int seats[][COLUMN], int rowMax, int colMax){
 	
-	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 	for (int row = 0; row < rowMax; row++)
 	{
 		for (int col = 0; col < colMax; col++)
@@ -67,6 +65,7 @@ void printSeats(int seats[][COLUMN], int rowMax, int colMax){
 		}
 		printf("\n");
 	}	
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
 }
 
 void findSeat(void *seller_args , int seats[][COLUMN]){
@@ -85,9 +84,6 @@ void findSeat(void *seller_args , int seats[][COLUMN]){
 				}
 			}
 		}
-		
-		
-		
 	} else if(args.priority == MEDIUM_PRIORITY){
 		if(middle_flag == 0){
 			for(int i = 5; i < ROW; i++){
@@ -112,9 +108,6 @@ void findSeat(void *seller_args , int seats[][COLUMN]){
 				middle_flag = 0;
 			}
 		}
-		
-		
-
 	} else if(args.priority == LOW_PRIORITY){
 		for(int i = ROW - 1; i >= 0; i--){
 			for(int j = 0; j < COLUMN; j++){
@@ -131,11 +124,10 @@ void findSeat(void *seller_args , int seats[][COLUMN]){
 }
 
 
-
 void *seatFinder(void *seller_args){
 	seller_args_t args = *((seller_args_t *) seller_args);
 	bool done = false;
-	int current_arrival_time, tickets_sold, quanta = 0;
+	int current_arrival_time, tickets_sold,  quanta = 0;
 	args.current_index = 0;
 	ending_quanta = 0;
 
@@ -148,6 +140,7 @@ void *seatFinder(void *seller_args){
 		//Still need to check if there are less seats than what the buyer wants
 		if(numTickets < 0 || quanta > MAX_ARRIVAL_TIME){
 			done = true;
+			break;
 		} else if (current_arrival_time == quanta){
 			args.completed_queue->buf[args.current_index].arrival_time = current_arrival_time;
 			args.completed_queue->buf[args.current_index].tickets_wanted = tickets_sold;
@@ -159,23 +152,14 @@ void *seatFinder(void *seller_args){
 			} 
 			printf("%s sold %d tickets. There are %d tickets remaining\n", args.name, temp, numTickets);
 			
-
 			numTickets -= temp;
 
 			args.current_index++;
 			args.current_queue->size--;
 
-			//printf("{%d} Seller {%s} has sold {%d} seats at arrival time {%d}. There are {%d} seats left.", quanta, args.name, tickets_sold, current_arrival_time, numTickets);
-			//printf("{%s} has {%zu} buyers left.\n", args.name, args.current_queue->size);
 			printSeats(seats, ROW, COLUMN);
-			//
-			//printf("%s ", args.name);
-
 			thread_sleep(&args);
-
 		}
-
-
 		quanta++;
 		pthread_mutex_unlock(&lock);
 	}
