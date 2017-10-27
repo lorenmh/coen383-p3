@@ -20,4 +20,5 @@ event_pool_t* event_pool_init();
 void event_pool_destroy(event_pool_t* event_pool);
 void add_event(event_pool_t* event_pool, event_t event);
 void print_events(event_pool_t* event_pool);
+void event_print(event_t event);
 #endif //COEN383_P3_EVENT_H
