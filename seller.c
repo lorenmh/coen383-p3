@@ -17,8 +17,7 @@ void *seller(void *seller_args) {
     args.current_queue = current_queue;
     args.completed_queue = completed_queue;
 
-    printf("%d\n", args.num_customers);
-	for(int i = 0; i < args.current_queue->size; i++){
+	for(int i = 0; i < args.num_customers; i++){
 		args.current_queue->buf[i].id = rand() % 100 + 1;
 		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,args.current_queue->buf[i].id);
 	}

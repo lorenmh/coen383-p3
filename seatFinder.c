@@ -83,11 +83,10 @@ void printSeats(){
 	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
 }
 
-void findSeat(void *seller_args){
+void findSeat(void *seller_args, int customer_index){
 	seller_args_t args = *((seller_args_t *) seller_args);
 	int tickets_sold = args.current_queue->buf[args.current_index].tickets_wanted;
 	int seatAssign;
-	char* temp;
 
 	if(args.priority == HIGH_PRIORITY){
 		
@@ -95,7 +94,7 @@ void findSeat(void *seller_args){
 			for(int j = 0; j < COLUMN; j++){
 				if(seating[i][j] == "X"){
 					seatAssign = (i*10)+j+1;
-					seating[i][j] = args.current_queue->buf[i].name;
+					seating[i][j] = args.current_queue->buf[customer_index].name;
 					return;
 				}
 			}
@@ -106,7 +105,7 @@ void findSeat(void *seller_args){
 				for(int j = 0; j < COLUMN; j++){
 					if(seating[i][j] == "X"){
 						seatAssign = (i*10)+j+1;
-						seating[i][j] = args.current_queue->buf[i].name;
+						seating[i][j] = args.current_queue->buf[customer_index].name;
 						return;
 					}
 				}
@@ -117,7 +116,7 @@ void findSeat(void *seller_args){
 				for(int j = 0; j < COLUMN; j++){
 					if(seating[i][j] == "X"){
 						seatAssign = (i*10)+j+1;
-						seating[i][j] = args.current_queue->buf[i].name;
+						seating[i][j] = args.current_queue->buf[customer_index].name;
 						return;
 					}
 				}
@@ -129,7 +128,7 @@ void findSeat(void *seller_args){
 			for(int j = 0; j < COLUMN; j++){
 				if(seating[i][j] == "X"){
 					seatAssign = (i*10)+j+1;
-					seating[i][j] = args.current_queue->buf[i].name;
+					seating[i][j] = args.current_queue->buf[customer_index].name;
 					return;
 				}
 			}
@@ -167,7 +166,7 @@ void *seatFinder(void *seller_args){
 			
 			int temp = tickets_sold;
 			while (tickets_sold != 0){
-				findSeat(&args);
+				findSeat(&args, args.current_index);
 				tickets_sold--;
 			} 
 			printf("%s sold %d tickets. There are %d tickets remaining\n", args.name, temp, numTickets);
@@ -183,7 +182,6 @@ void *seatFinder(void *seller_args){
 			args.current_index++;
 			args.current_queue->size--;
 			numTickets-=tickets_sold;
-			printf("%d\n", numTickets);
 		}
 		quanta++;
 		pthread_mutex_unlock(&lock);

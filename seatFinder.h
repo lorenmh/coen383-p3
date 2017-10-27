@@ -20,7 +20,7 @@ void initLock();
 
 void initSeats();
 
-void findSeat(void *seller_args);
+void findSeat(void *seller_args, int customer_index);
 
 void initSleepTime();
 
