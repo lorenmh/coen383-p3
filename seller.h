@@ -9,6 +9,7 @@ typedef struct {
     priority_t priority;
     char name[3];
     int id;
+    int num_customers;
     int current_index;
 } seller_args_t;
 

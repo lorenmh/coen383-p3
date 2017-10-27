@@ -11,32 +11,26 @@
 
 int main(int argc, char *argv[]) {
     srand(time(NULL));
+    int num_customers;
 
-    //if (argc != 2) return 1;
-    //int num_customers = atoi(argv[1]);
-
-    //printf("Num Customers: %d\n", num_customers);
-
-    //customer_queue_t *queue = create_customer_queue(10);
-    //print_customer_queue(queue);
-
+    printf("Enter the value of customers per queue: ");
+    scanf("%d", &num_customers);
 
     seller_args_t args[10];
     pthread_t threads[10];
-    //int seats [ROW][COLUMN] = {0};
     
     initSeats();    
     initLock();
 
     for (int i = 0; i < 10; i++) {
         if (i == 0) {
-            args[i] = (seller_args_t) { NULL, NULL,HIGH_PRIORITY, {0}, i };
+            args[i] = (seller_args_t) { NULL, NULL,HIGH_PRIORITY, {0}, i, num_customers };
             sprintf(args[i].name, "H");
         } else if (i > 0 && i < 4) {
-            args[i] = (seller_args_t) { NULL, NULL,MEDIUM_PRIORITY, {0}, i };
+            args[i] = (seller_args_t) { NULL, NULL,MEDIUM_PRIORITY, {0}, i, num_customers };
             sprintf(args[i].name, "M%d", i);
         } else {
-            args[i] = (seller_args_t) { NULL, NULL,LOW_PRIORITY, {0}, i };
+            args[i] = (seller_args_t) { NULL, NULL,LOW_PRIORITY, {0}, i, num_customers };
             sprintf(args[i].name, "L%d", i - 3);
         }
 

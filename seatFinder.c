@@ -161,7 +161,7 @@ void *seatFinder(void *seller_args){
 			pthread_mutex_unlock(&lock);
 			continue;
 		} else if (current_arrival_time == quanta){
-			/*
+			
 			args.completed_queue->buf[args.current_index].arrival_time = current_arrival_time;
 			args.completed_queue->buf[args.current_index].tickets_wanted = tickets_sold;
 			
@@ -179,7 +179,7 @@ void *seatFinder(void *seller_args){
 
 			printSeats();
 			thread_sleep(&args);
-			*/
+			
 			args.current_index++;
 			args.current_queue->size--;
 			numTickets-=tickets_sold;
