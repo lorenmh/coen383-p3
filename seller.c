@@ -18,7 +18,8 @@ void *seller(void *seller_args) {
     args.completed_queue = completed_queue;
 
 	for(int i = 0; i < args.current_queue->size; i++){
-		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,i+1);
+		args.current_queue->buf[i].id = rand() % 100 + 1;
+		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,args.current_queue->buf[i].id);
 	}
 
     seatFinder(&args);

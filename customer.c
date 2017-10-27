@@ -23,7 +23,6 @@ customer_queue_t *create_customer_queue(int num_customers) {
 
     for (int i = 0; i < num_customers; i++) {
         queue->buf[i].arrival_time = rand() % MAX_ARRIVAL_TIME;
-
         rand_t = rand() % 3;
         t_wanted = tickets[rand_t];
         queue->buf[i].tickets_wanted = t_wanted;

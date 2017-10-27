@@ -12,6 +12,7 @@ typedef enum {
 typedef struct {
     char name[10];
     int arrival_time;
+    int id;
     int tickets_wanted;
 } customer_t;
 

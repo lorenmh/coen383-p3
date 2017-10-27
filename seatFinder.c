@@ -95,7 +95,7 @@ void findSeat(void *seller_args){
 			for(int j = 0; j < COLUMN; j++){
 				if(seating[i][j] == "X"){
 					seatAssign = (i*10)+j+1;
-					seating[i][j] = "H";
+					seating[i][j] = args.current_queue->buf[i].name;
 					return;
 				}
 			}
@@ -153,11 +153,15 @@ void *seatFinder(void *seller_args){
 		current_arrival_time = args.current_queue->buf[args.current_index].arrival_time;
 		tickets_sold = args.current_queue->buf[args.current_index].tickets_wanted;
 
-		//Still need to check if there are less seats than what the buyer wants
-		if(numTickets < 0 || quanta > MAX_ARRIVAL_TIME){
+		if(numTickets <= 0 || quanta > MAX_ARRIVAL_TIME){
 			done = true;
-			break;
+		}
+		if((numTickets - tickets_sold) < 0){
+			quanta++;
+			pthread_mutex_unlock(&lock);
+			continue;
 		} else if (current_arrival_time == quanta){
+			/*
 			args.completed_queue->buf[args.current_index].arrival_time = current_arrival_time;
 			args.completed_queue->buf[args.current_index].tickets_wanted = tickets_sold;
 			
@@ -175,6 +179,11 @@ void *seatFinder(void *seller_args){
 
 			printSeats();
 			thread_sleep(&args);
+			*/
+			args.current_index++;
+			args.current_queue->size--;
+			numTickets-=tickets_sold;
+			printf("%d\n", numTickets);
 		}
 		quanta++;
 		pthread_mutex_unlock(&lock);
