@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     srand(time(NULL));
     int num_customers;
 
-    printf("Enter the value of customers per queue: ");
+    printf("\nEnter the value of customers per queue: ");
     scanf("%d", &num_customers);
 
     seller_args_t args[10];

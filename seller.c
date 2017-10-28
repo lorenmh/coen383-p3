@@ -22,6 +22,7 @@ void *seller(void *seller_args) {
 		sprintf(args.current_queue->buf[i].name, "%s:%d",args.name,args.current_queue->buf[i].id);
 	}
 
+
     seatFinder(&args);
 
     return NULL;
