@@ -62,9 +62,7 @@ void initSeats(){
         for (int col = 0; col < 10; col++)
         {
             seating[row][col] = "X";
-            printf(" { %s } ", seating[row][col]);
         }
-        printf("\n");
     }  
 }
 
@@ -106,10 +104,10 @@ void findSeat(void *seller_args, int customer_index){
 					if(seating[i][j] == "X"){
 						seatAssign = (i*10)+j+1;
 						seating[i][j] = args.current_queue->buf[customer_index].name;
+						middle_flag = 1;
 						return;
 					}
 				}
-				middle_flag = 1;
 			}
 		} else if(middle_flag == 1){
 			for(int i = 5; i >= 0;i--){
@@ -117,10 +115,10 @@ void findSeat(void *seller_args, int customer_index){
 					if(seating[i][j] == "X"){
 						seatAssign = (i*10)+j+1;
 						seating[i][j] = args.current_queue->buf[customer_index].name;
+						middle_flag = 0;
 						return;
 					}
 				}
-				middle_flag = 0;
 			}
 		}
 	} else if(args.priority == LOW_PRIORITY){
