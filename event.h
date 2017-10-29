@@ -4,7 +4,7 @@
 typedef enum {
     Arrived,
     Informed,
-    left
+    Left
 } Event;
 
 typedef struct {
