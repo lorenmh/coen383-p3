@@ -23,4 +23,4 @@ seller.o: seller.c seller.h
 	$(COMPILE) seller.c
 
 event.o: event.c event.h
-    $(COMPILE) event.c
+	$(COMPILE) event.c
