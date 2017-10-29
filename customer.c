@@ -2,8 +2,11 @@
 #include <stdlib.h>
 
 #include "customer.h"
+#include "event.h"
+
 
 const int tickets[3] = {1,2,3};
+struct event_pool *pool;
 
 int customer_comparator(const void *a, const void *b) {
     customer_t *cust_a = (customer_t *) a;
@@ -26,6 +29,9 @@ customer_queue_t *create_customer_queue(int num_customers) {
         rand_t = rand() % 3;
         t_wanted = tickets[rand_t];
         queue->buf[i].tickets_wanted = t_wanted;
+
+        event_t event = {Arrived, 0, queue->buf[i].arrival_time};
+        add_event(&pool, event);
     }
 
     qsort(queue->buf, num_customers, customer_t_sz, customer_comparator);

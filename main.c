@@ -8,6 +8,7 @@
 #include "customer.h"
 #include "seller.h"
 #include "seatFinder.h"
+#include "event.h"
 
 int main(int argc, char *argv[]) {
     srand(time(NULL));
@@ -19,6 +20,8 @@ int main(int argc, char *argv[]) {
     seller_args_t args[10];
     pthread_t threads[10];
     
+    struct event_pool *pool = event_pool_init();
+
     initSeats();    
     initLock();
 
@@ -46,7 +49,7 @@ int main(int argc, char *argv[]) {
     }
 
 
-
+    event_pool_destroy(&pool);
     removeLock();
 
 
