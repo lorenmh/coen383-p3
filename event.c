@@ -40,7 +40,7 @@ void* real_time_printer(void *event_pool) {
             if (pool->printer_stop) {
                 return NULL;
             }
-            pthread_cond_wait(&(pool->printer_signal), &(pool->printer_job_remaining));
+            pthread_cond_wait(&(pool->printer_signal), &(pool->job_remaining_mutex));
         }
         job_number = pool->printer_job_remaining;
         pool->printer_job_remaining = 0;
