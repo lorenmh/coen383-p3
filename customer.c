@@ -32,9 +32,6 @@ customer_queue_t *create_customer_queue(void *seller_args) {
 
     for (int i = 0; i < args.num_customers; i++) {
         queue->buf[i].arrival_time = rand() % MAX_ARRIVAL_TIME;
-        
-        queue->buf[i].id = i;
-        sprintf(queue->buf[i].name, "%s:%d",args.name,i);
 
         event_t event;
         event.time_stamp = queue->buf[i].arrival_time;
@@ -42,6 +39,11 @@ customer_queue_t *create_customer_queue(void *seller_args) {
     }
 
     qsort(queue->buf, args.num_customers, customer_t_sz, customer_comparator);
+
+    for (int i = 0; i < args.num_customers; i++) {
+        queue->buf[i].id = i;
+        sprintf(queue->buf[i].name, "%s:%d",args.name,i);
+    }
 
     return queue;
 }
