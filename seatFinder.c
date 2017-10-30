@@ -20,7 +20,7 @@ struct event_pool *pool;
 pthread_mutex_t lock;
 pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 int middle_flag = 0;
-const char* seating [ROW][COLUMN];
+char* seating [ROW][COLUMN];
 
 const int HSLEEP[2] = {1,2};
 const int MSLEEP[3] = {2,3,4};
@@ -55,17 +55,17 @@ void thread_sleep(void *seller_args){
 		rand_t = rand() % 2;
 		s_time = HSLEEP[rand_t];
 		sleep(s_time);
-		//usleep(s_time * 1000000);
+		//usleep(s_time * 1000);
 	} else if(args.priority == MEDIUM_PRIORITY){
 		rand_t = rand() % 3;
 		s_time = MSLEEP[rand_t];
 		sleep(s_time);
-		//usleep(s_time * 1000000);
+		//usleep(s_time * 1000);
 	} else if(args.priority == LOW_PRIORITY){
 		rand_t = rand() % 4;
 		s_time = LSLEEP[rand_t];
 		sleep(s_time);
-		//usleep(s_time * 1000000);
+		//usleep(s_time * 1000);
 	}
 }
 
@@ -74,7 +74,8 @@ void initSeats(){
     {
         for (int col = 0; col < 10; col++)
         {
-            seating[row][col] = "X";
+            seating[row][col] = malloc(2);
+            strcpy(seating[row][col], "X");
         }
     }  
 }
