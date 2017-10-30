@@ -25,6 +25,7 @@ int main(int argc, char *argv[]) {
     initSeats();    
     initLock();
 
+
     for (int i = 0; i < 10; i++) {
         if (i == 0) {
             args[i] = (seller_args_t) { NULL, NULL,HIGH_PRIORITY, {0}, i, num_customers };

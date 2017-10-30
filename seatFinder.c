@@ -5,6 +5,9 @@
 #include <assert.h>
 #include <stdbool.h>
 #include <string.h>
+#include <time.h>
+
+
 
 #include "customer.h"
 #include "seller.h"
@@ -18,7 +21,6 @@ pthread_mutex_t lock;
 pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 int middle_flag = 0;
 const char* seating [ROW][COLUMN];
-
 
 const int HSLEEP[2] = {1,2};
 const int MSLEEP[3] = {2,3,4};
@@ -38,27 +40,28 @@ void removeLock(){
 	pthread_mutex_destroy(&lock);
 }
 
-void thread_sleep(void *seller_args, int tickets_sold){
+void thread_sleep(void *seller_args){
 	seller_args_t args = *((seller_args_t *) seller_args);
 	int rand_t, s_time;
+	event_t leave_event;
 	
+	leave_event.event = Left;
+	sprintf(leave_event.seller_id, "%s", args.name);
+    sprintf(leave_event.customer_id, "%s.%d", args.name, args.current_index);
+	leave_event.time_stamp = current_time();
+	add_event(pool, leave_event);
+
 	if(args.priority == HIGH_PRIORITY){
 		rand_t = rand() % 2;
 		s_time = HSLEEP[rand_t];
-		event_t event = {Left, tickets_sold, args.current_queue->buf[args.current_index].arrival_time};
-		add_event(pool, event);
 		sleep(s_time);
 	} else if(args.priority == MEDIUM_PRIORITY){
 		rand_t = rand() % 3;
 		s_time = MSLEEP[rand_t];
-		event_t event = {Left, tickets_sold, args.current_queue->buf[args.current_index].arrival_time};
-		add_event(pool, event);
 		sleep(s_time);
 	} else if(args.priority == LOW_PRIORITY){
 		rand_t = rand() % 4;
 		s_time = LSLEEP[rand_t];
-		event_t event = {Left, tickets_sold, args.current_queue->buf[args.current_index].arrival_time};
-		add_event(pool, event);
 		sleep(s_time);
 	}
 }
@@ -90,18 +93,23 @@ void printSeats(){
 
 void findSeat(void *seller_args, int customer_index){
 	seller_args_t args = *((seller_args_t *) seller_args);
-	int tickets_sold = args.current_queue->buf[args.current_index].tickets_wanted;
-	int seatAssign;
+
+	event_t seat_event;
+	
+	seat_event.event = Informed;
+	sprintf(seat_event.seller_id, "%s", args.name);
+    sprintf(seat_event.customer_id, "%s.%d", args.name, args.current_index);
+	seat_event.time_stamp = current_time();
+
 
 	if(args.priority == HIGH_PRIORITY){
 		
 		for(int i = 0; i < ROW; i++){
 			for(int j = 0; j < COLUMN; j++){
 				if(seating[i][j] == "X"){
-					seatAssign = (i*10)+j+1;
 					seating[i][j] = args.current_queue->buf[customer_index].name;
-					event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-					add_event(pool, event);
+					seat_event.seat_num = (i*10)+j+1;
+					add_event(pool, seat_event);
 					return;
 				}
 			}
@@ -111,10 +119,9 @@ void findSeat(void *seller_args, int customer_index){
 			for(int i = 5; i < ROW; i++){
 				for(int j = 0; j < COLUMN; j++){
 					if(seating[i][j] == "X"){
-						seatAssign = (i*10)+j+1;
 						seating[i][j] = args.current_queue->buf[customer_index].name;
-						event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-						add_event(pool, event);
+						seat_event.seat_num = (i*10)+j+1;
+						add_event(pool, seat_event);
 						middle_flag = 1;
 						return;
 					}
@@ -124,10 +131,9 @@ void findSeat(void *seller_args, int customer_index){
 			for(int i = 5; i >= 0;i--){
 				for(int j = 0; j < COLUMN; j++){
 					if(seating[i][j] == "X"){
-						seatAssign = (i*10)+j+1;
 						seating[i][j] = args.current_queue->buf[customer_index].name;
-						event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-						add_event(pool, event);
+						seat_event.seat_num = (i*10)+j+1;
+						add_event(pool, seat_event);
 						middle_flag = 0;
 						return;
 					}
@@ -138,10 +144,9 @@ void findSeat(void *seller_args, int customer_index){
 		for(int i = ROW - 1; i >= 0; i--){
 			for(int j = 0; j < COLUMN; j++){
 				if(seating[i][j] == "X"){
-					seatAssign = (i*10)+j+1;
 					seating[i][j] = args.current_queue->buf[customer_index].name;
-					event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-					add_event(pool, event);
+					seat_event.seat_num = (i*10)+j+1;
+					add_event(pool, seat_event);
 					return;
 				}
 			}
@@ -155,51 +160,58 @@ void findSeat(void *seller_args, int customer_index){
 void *seatFinder(void *seller_args){
 	seller_args_t args = *((seller_args_t *) seller_args);
 	bool done = false;
-	int current_arrival_time, tickets_sold,  quanta = 0;
-	args.current_index = 0;
+	int current_arrival_time, tickets_sold,  quanta = 0, temp_tickets, total_tickets = 0;
 	ending_quanta = 0;
+	start_time();
 
 	while(!done){
 		pthread_mutex_lock(&lock);
 
-		current_arrival_time = args.current_queue->buf[args.current_index].arrival_time;
-		tickets_sold = args.current_queue->buf[args.current_index].tickets_wanted;
+		end_time();
+		int temp_time = current_time();
 
-		if(numTickets <= 0 || quanta > MAX_ARRIVAL_TIME){
-			done = true;
-		}
-		if((numTickets - tickets_sold) < 0){
-			quanta++;
-			pthread_mutex_unlock(&lock);
-			continue;
-		} else if (current_arrival_time == quanta){
+        tickets_sold = rand() % 3 + 1;
+
+		//printf("{%s} time: %d | tickets: %d\n", args.name,current_arrival_time, tickets_sold);
+
+
+		if (total_tickets < numTickets){
+			
 			event_t arrival_event;
-            arrival_event.time_stamp = quanta;
+            arrival_event.time_stamp = current_time();
             arrival_event.event = Arrived;
             sprintf(arrival_event.seller_id, "%s", args.name);
             sprintf(arrival_event.customer_id, "%s.%d", args.name, args.current_index);
             add_event(pool, arrival_event);
-
-			args.completed_queue->buf[args.current_index].arrival_time = current_arrival_time;
-			args.completed_queue->buf[args.current_index].tickets_wanted = tickets_sold;
 			
-			int temp = tickets_sold;
+
+			temp_tickets = tickets_sold;
 			while (tickets_sold != 0){
 				findSeat(&args, args.current_index);
 				tickets_sold--;
 			} 
-			printf("%s sold %d tickets. There are %d tickets remaining\n", args.name, temp, numTickets);
-			
-			numTickets -= temp;
-
-			args.current_index++;
-			args.current_queue->size--;
-
+			//printf("{%zu} %s sold %d tickets. There are %d tickets remaining\n", args.current_queue->size,args.name, temp_tickets, numTickets);
 			//printSeats();
-			thread_sleep(&args, temp);
+
+			numTickets -= temp_tickets;
+			total_tickets += temp_tickets;
+
+			args.current_queue->size--;
+			args.current_index++;
+			
+			pthread_mutex_unlock(&lock);
+			
+		} else if((numTickets - tickets_sold) < 0){
+			quanta++;
+			pthread_mutex_unlock(&lock);
+			continue;
+		} else if(numTickets <= 0 || current_time() > MAX_ARRIVAL_TIME){
+				done = true;
 		}
+		
 		quanta++;
 		pthread_mutex_unlock(&lock);
+		thread_sleep(&args);
 	}
 
 	ending_quanta = quanta;
