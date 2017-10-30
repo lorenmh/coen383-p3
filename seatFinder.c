@@ -49,7 +49,7 @@ void thread_sleep(void *seller_args){
 	sprintf(leave_event.seller_id, "%s", args.name);
     sprintf(leave_event.customer_id, "%s.%d", args.name, args.current_index);
 	leave_event.time_stamp = current_time();
-	add_event(pool, leave_event);
+	//add_event(pool, leave_event);
 
 	if(args.priority == HIGH_PRIORITY){
 		rand_t = rand() % 2;
@@ -182,15 +182,15 @@ void *seatFinder(void *seller_args){
             arrival_event.event = Arrived;
             sprintf(arrival_event.seller_id, "%s", args.name);
             sprintf(arrival_event.customer_id, "%s.%d", args.name, args.current_index);
-            add_event(pool, arrival_event);
+            //add_event(pool, arrival_event);
 			
 
 			temp_tickets = tickets_sold;
 			while (tickets_sold != 0){
-				findSeat(&args, args.current_index);
+				//findSeat(&args, args.current_index);
 				tickets_sold--;
 			} 
-			//printf("{%zu} %s sold %d tickets. There are %d tickets remaining\n", args.current_queue->size,args.name, temp_tickets, numTickets);
+			printf("{%zu} %s sold %d tickets. There are %d tickets remaining\n", args.current_queue->size,args.name, temp_tickets, numTickets);
 			//printSeats();
 
 			numTickets -= temp_tickets;
