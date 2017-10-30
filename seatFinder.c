@@ -33,7 +33,7 @@ int random_int(int min, int max)
 
 void initLock(){
 	int rc = pthread_mutex_init(&lock, NULL);
-	assert(rc == 0);	
+	assert(rc == 0);
 }
 
 void removeLock(){
@@ -54,15 +54,15 @@ void thread_sleep(void *seller_args){
 	if(args.priority == HIGH_PRIORITY){
 		rand_t = rand() % 2;
 		s_time = HSLEEP[rand_t];
-		sleep(s_time);
+		usleep(s_time * 1000);
 	} else if(args.priority == MEDIUM_PRIORITY){
 		rand_t = rand() % 3;
 		s_time = MSLEEP[rand_t];
-		sleep(s_time);
+		usleep(s_time * 1000);
 	} else if(args.priority == LOW_PRIORITY){
 		rand_t = rand() % 4;
 		s_time = LSLEEP[rand_t];
-		sleep(s_time);
+		usleep(s_time * 1000);
 	}
 }
 
@@ -106,7 +106,7 @@ void findSeat(void *seller_args, int customer_index){
 		
 		for(int i = 0; i < ROW; i++){
 			for(int j = 0; j < COLUMN; j++){
-				if(seating[i][j] == "X"){
+				if(*seating[i][j] == 'X'){
 					seating[i][j] = args.current_queue->buf[customer_index].name;
 					seat_event.seat_num = (i*10)+j+1;
 					add_event(pool, seat_event);
@@ -118,7 +118,7 @@ void findSeat(void *seller_args, int customer_index){
 		if(middle_flag == 0){
 			for(int i = 5; i < ROW; i++){
 				for(int j = 0; j < COLUMN; j++){
-					if(seating[i][j] == "X"){
+					if(*seating[i][j] == 'X'){
 						seating[i][j] = args.current_queue->buf[customer_index].name;
 						seat_event.seat_num = (i*10)+j+1;
 						add_event(pool, seat_event);
@@ -130,7 +130,7 @@ void findSeat(void *seller_args, int customer_index){
 		} else if(middle_flag == 1){
 			for(int i = 5; i >= 0;i--){
 				for(int j = 0; j < COLUMN; j++){
-					if(seating[i][j] == "X"){
+					if(*seating[i][j] == 'X'){
 						seating[i][j] = args.current_queue->buf[customer_index].name;
 						seat_event.seat_num = (i*10)+j+1;
 						add_event(pool, seat_event);
@@ -143,7 +143,7 @@ void findSeat(void *seller_args, int customer_index){
 	} else if(args.priority == LOW_PRIORITY){
 		for(int i = ROW - 1; i >= 0; i--){
 			for(int j = 0; j < COLUMN; j++){
-				if(seating[i][j] == "X"){
+				if(*seating[i][j] == 'X'){
 					seating[i][j] = args.current_queue->buf[customer_index].name;
 					seat_event.seat_num = (i*10)+j+1;
 					add_event(pool, seat_event);
@@ -199,7 +199,6 @@ void *seatFinder(void *seller_args){
 			args.current_queue->size--;
 			args.current_index++;
 			
-			pthread_mutex_unlock(&lock);
 			
 		} else if((numTickets - tickets_sold) < 0){
 			quanta++;
