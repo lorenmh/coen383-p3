@@ -26,11 +26,6 @@ const int HSLEEP[2] = {1,2};
 const int MSLEEP[3] = {2,3,4};
 const int LSLEEP[4] = {4,5,6,7};
 
-int random_int(int min, int max)
-{
-   return min + rand() % (max+1 - min);
-}
-
 void initLock(){
 	int rc = pthread_mutex_init(&lock, NULL);
 	assert(rc == 0);

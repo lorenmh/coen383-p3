@@ -11,7 +11,6 @@ extern const int LSLEEP[4];
 
 const char* seat[][COLUMN];
 
-int random_int(int min, int max);
 void *seatFinder(void *seller_args);
 void thread_sleep(void *seller_args);
 void findSeat(void *seller_args, int customer_index);
