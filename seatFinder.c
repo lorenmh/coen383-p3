@@ -179,7 +179,6 @@ void *seatFinder(void *seller_args){
 
 		if(numTickets == 0 || current_time() > MAX_ARRIVAL_TIME || args.current_queue->size <= 0){
 				done = true;
-				printf("Done\n");
 		} else{
 			event_t arrival_event;
             arrival_event.time_stamp = current_time();
