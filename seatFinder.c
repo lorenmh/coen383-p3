@@ -78,12 +78,12 @@ void initSeats(){
 
 void printSeats(){
 	
-	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 	for (int row = 0; row < ROW; row++)
 	{
 		for (int col = 0; col < COLUMN; col++)
 		{
-			printf(" { %s } ", seating[row][col]);
+			printf("%8.8s", seating[row][col]);
 		}
 		printf("\n");
 	}	
