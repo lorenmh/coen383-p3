@@ -163,10 +163,9 @@ void findSeat(void *seller_args, int customer_index){
 void *seatFinder(void *seller_args){
 	seller_args_t args = *((seller_args_t *) seller_args);
 	bool done = false;
-	int current_arrival_time,  quanta = 0, total_tickets = 0, size = 0;
+	int current_arrival_time,  quanta = 0, total_tickets = 0;
 	ending_quanta = 0;
 	start_time();
-	size = args.current_queue->size;
 
 	while(!done){
 		pthread_mutex_lock(&lock);
@@ -187,7 +186,7 @@ void *seatFinder(void *seller_args){
             sprintf(arrival_event.customer_id, "%s.%d", args.name, args.current_index);
             //add_event(pool, arrival_event);
 			
-			findSeat(&args, args.current_index);
+			//findSeat(&args, args.current_index);
 
 			printf("{%zu} %s sold a ticket. There are %d tickets remaining\n", args.current_queue->size,args.name, numTickets);
 			//printSeats();
@@ -196,11 +195,12 @@ void *seatFinder(void *seller_args){
 			total_tickets++;
 
 			args.current_queue->size--;
-			size--;
 			args.current_index++;
 			
 			
-		} else if(numTickets == 0 || current_time() > MAX_ARRIVAL_TIME || size <= 0){
+		}
+
+		if(numTickets == 0 || current_time() > MAX_ARRIVAL_TIME || args.current_queue->size <= 0){
 				done = true;
 				printf("Done\n");
 		}
