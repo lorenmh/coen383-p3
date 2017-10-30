@@ -49,7 +49,7 @@ void thread_sleep(void *seller_args){
 	sprintf(leave_event.seller_id, "%s", args.name);
     sprintf(leave_event.customer_id, "%s.%d", args.name, args.current_index);
 	leave_event.time_stamp = current_time();
-	//add_event(pool, leave_event);
+	add_event(pool, leave_event);
 
 	if(args.priority == HIGH_PRIORITY){
 		rand_t = rand() % 2;
@@ -174,9 +174,6 @@ void *seatFinder(void *seller_args){
 		end_time();
 		int temp_time = current_time();
 
-
-		//printf("{%s} time: %d | tickets: %d\n", args.name,current_arrival_time, tickets_sold);
-
 		if(numTickets == 0 || current_time() > MAX_ARRIVAL_TIME || args.current_queue->size <= 0){
 				done = true;
 		} else{
@@ -188,9 +185,6 @@ void *seatFinder(void *seller_args){
             add_event(pool, arrival_event);
 			
 			findSeat(&args, args.current_index);
-
-			//printf("{%zu} %s sold a ticket. There are %d tickets remaining\n", args.current_queue->size,args.name, numTickets);
-//			printSeats();
 
 			numTickets--;
 
