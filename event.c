@@ -1,6 +1,7 @@
 #include <pthread.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <stdbool.h>
 
 #include "event.h"
@@ -28,7 +29,19 @@ struct event_pool {
 
 
 void event_print(event_t event) {
+    switch (event.event) {
+        case Arrived:
+            printf("Customer arrived ");
+            break;
+        case Informed:
+            printf("Customer has got the ticket %d ", event.seat_num);
+            break;
+        case Left:
+            printf("Customer has left ");
+            break;
 
+    }
+    printf("at %d\n", event.time_stamp);
 }
 
 void* real_time_printer(void *event_pool) {
