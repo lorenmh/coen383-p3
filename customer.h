@@ -3,17 +3,22 @@
 
 #define MAX_ARRIVAL_TIME 59
 
+typedef struct {
+	time_t start;
+	time_t end;
+	time_t current;
+} sys_time;
+
 typedef enum {
     HIGH_PRIORITY,
     MEDIUM_PRIORITY,
     LOW_PRIORITY
 } priority_t;
-
+ 
 typedef struct {
     char name[10];
     int arrival_time;
     int id;
-    int tickets_wanted;
 } customer_t;
 
 typedef struct {
@@ -23,9 +28,9 @@ typedef struct {
 
 extern struct event_pool *pool;
 
-customer_queue_t *create_customer_queue(int num_customers);
-customer_queue_t *create_completed_queue(int num_customers);
+customer_queue_t *create_customer_queue(void *seller_args);
 
 void print_customer_queue(customer_queue_t *queue);
+long int current_time();
 
 #endif
