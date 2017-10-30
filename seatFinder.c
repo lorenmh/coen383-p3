@@ -54,15 +54,18 @@ void thread_sleep(void *seller_args){
 	if(args.priority == HIGH_PRIORITY){
 		rand_t = rand() % 2;
 		s_time = HSLEEP[rand_t];
-		usleep(s_time * 1000);
+		sleep(s_time);
+		//usleep(s_time * 1000000);
 	} else if(args.priority == MEDIUM_PRIORITY){
 		rand_t = rand() % 3;
 		s_time = MSLEEP[rand_t];
-		usleep(s_time * 1000);
+		sleep(s_time);
+		//usleep(s_time * 1000000);
 	} else if(args.priority == LOW_PRIORITY){
 		rand_t = rand() % 4;
 		s_time = LSLEEP[rand_t];
-		usleep(s_time * 1000);
+		sleep(s_time);
+		//usleep(s_time * 1000000);
 	}
 }
 
