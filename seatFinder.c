@@ -173,7 +173,13 @@ void *seatFinder(void *seller_args){
 			pthread_mutex_unlock(&lock);
 			continue;
 		} else if (current_arrival_time == quanta){
-			
+			event_t arrival_event;
+            arrival_event.time_stamp = quanta;
+            arrival_event.event = Arrived;
+            sprintf(arrival_event.seller_id, "%s", args.name);
+            sprintf(arrival_event.customer_id, "%s.%d", args.name, args.current_index);
+            add_event(pool, arrival_event);
+
 			args.completed_queue->buf[args.current_index].arrival_time = current_arrival_time;
 			args.completed_queue->buf[args.current_index].tickets_wanted = tickets_sold;
 			
