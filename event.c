@@ -5,6 +5,7 @@
 #include <stdbool.h>
 
 #include "event.h"
+#include "seatFinder.h"
 
 
 struct node {
@@ -36,6 +37,7 @@ void event_print(event_t event) {
         case Informed:
             if (event.seat_num != -1) {
                 printf("Customer %s has got the ticket %d from seller %s ", event.customer_id, event.seat_num, event.seller_id);
+                printSeats();
             }else {
                 printf("Customer %s does not have a ticket from seller %s ",event.customer_id, event.seller_id);
             }

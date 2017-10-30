@@ -191,7 +191,7 @@ void *seatFinder(void *seller_args){
 			findSeat(&args, args.current_index);
 
 			//printf("{%zu} %s sold a ticket. There are %d tickets remaining\n", args.current_queue->size,args.name, numTickets);
-			printSeats();
+//			printSeats();
 
 			numTickets--;
 
