@@ -1,0 +1,1452 @@
+Enter the value of customers per queue: 15
+Customer M1.0 arrived at 0
+Customer M1.0 has got the ticket 51 from seller M1 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0       X       X       X       X       X       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.1 has left at 0
+Customer H.0 arrived at 0
+Customer H.0 has got the ticket 1 from seller H at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0       X       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.1 has left at 0
+Customer M2.0 arrived at 0
+Customer M2.0 has got the ticket 52 from seller M2 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.1 has left at 0
+Customer L2.0 arrived at 0
+Customer L2.0 has got the ticket 91 from seller L2 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.1 has left at 0
+Customer M3.0 arrived at 0
+Customer M3.0 has got the ticket 53 from seller M3 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.1 has left at 0
+Customer L1.0 arrived at 0
+Customer L1.0 has got the ticket 92 from seller L1 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.1 has left at 0
+Customer L3.0 arrived at 0
+Customer L3.0 has got the ticket 93 from seller L3 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.1 has left at 0
+Customer L4.0 arrived at 0
+Customer L4.0 has got the ticket 94 from seller L4 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.1 has left at 0
+Customer L5.0 arrived at 0
+Customer L5.0 has got the ticket 95 from seller L5 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.1 has left at 0
+Customer L6.0 arrived at 0
+Customer L6.0 has got the ticket 96 from seller L6 at 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.1 has left at 0
+Customer H.1 arrived at 1
+Customer H.1 has got the ticket 2 from seller H at 1
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.2 has left at 1
+Customer H.2 arrived at 2
+Customer H.2 has got the ticket 3 from seller H at 2
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.3 has left at 2
+Customer M2.1 arrived at 3
+Customer M2.1 has got the ticket 54 from seller M2 at 3
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0       X       X       X       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.2 has left at 3
+Customer M1.1 arrived at 4
+Customer M1.1 has got the ticket 55 from seller M1 at 4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.2 has left at 4
+Customer L4.1 arrived at 4
+Customer L4.1 has got the ticket 97 from seller L4 at 4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.2 has left at 4
+Customer M3.1 arrived at 4
+Customer M3.1 has got the ticket 56 from seller M3 at 4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.2 has left at 4
+Customer L6.1 arrived at 4
+Customer L6.1 has got the ticket 98 from seller L6 at 4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.2 has left at 4
+Customer L5.1 arrived at 4
+Customer L5.1 has got the ticket 99 from seller L5 at 4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.2 has left at 4
+Customer H.3 arrived at 4
+Customer H.3 has got the ticket 4 from seller H at 4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1       X
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.4 has left at 4
+Customer L2.1 arrived at 5
+Customer L2.1 has got the ticket 100 from seller L2 at 5
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.2 has left at 5
+Customer H.4 arrived at 5
+Customer H.4 has got the ticket 5 from seller H at 5
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.5 has left at 5
+Customer L1.1 arrived at 6
+Customer L1.1 has got the ticket 81 from seller L1 at 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.2 has left at 6
+Customer M1.2 arrived at 6
+Customer M1.2 has got the ticket 57 from seller M1 at 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.3 has left at 6
+Customer M2.2 arrived at 6
+Customer M2.2 has got the ticket 58 from seller M2 at 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.3 has left at 6
+Customer H.5 arrived at 6
+Customer H.5 has got the ticket 6 from seller H at 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1       X       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.6 has left at 6
+Customer L3.1 arrived at 7
+Customer L3.1 has got the ticket 82 from seller L3 at 7
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.2 has left at 7
+Customer M3.2 arrived at 7
+Customer M3.2 has got the ticket 59 from seller M3 at 7
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1       X       X       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.3 has left at 7
+Customer L6.2 arrived at 8
+Customer L6.2 has got the ticket 83 from seller L6 at 8
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.3 has left at 8
+Customer L5.2 arrived at 8
+Customer L5.2 has got the ticket 84 from seller L5 at 8
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.3 has left at 8
+Customer M2.3 arrived at 8
+Customer M2.3 has got the ticket 60 from seller M2 at 8
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.4 has left at 8
+Customer H.6 arrived at 8
+Customer H.6 has got the ticket 7 from seller H at 8
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2       X       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.7 has left at 8
+Customer L2.2 arrived at 9
+Customer L2.2 has got the ticket 85 from seller L2 at 9
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2       X       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.3 has left at 9
+Customer L4.2 arrived at 10
+Customer L4.2 has got the ticket 86 from seller L4 at 10
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.3 has left at 10
+Customer M3.3 arrived at 10
+Customer M3.3 has got the ticket 61 from seller M3 at 10
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.4 has left at 10
+Customer M1.3 arrived at 10
+Customer M1.3 has got the ticket 41 from seller M1 at 10
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.4 has left at 10
+Customer M2.4 arrived at 10
+Customer M2.4 has got the ticket 62 from seller M2 at 10
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.5 has left at 10
+Customer H.7 arrived at 10
+Customer H.7 has got the ticket 8 from seller H at 10
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2       X       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.8 has left at 10
+Customer L1.2 arrived at 11
+Customer L1.2 has got the ticket 87 from seller L1 at 11
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.3 has left at 11
+Customer H.8 arrived at 12
+Customer H.8 has got the ticket 9 from seller H at 12
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2       X       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.9 has left at 12
+Customer L3.2 arrived at 13
+Customer L3.2 has got the ticket 88 from seller L3 at 13
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3       X       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.3 has left at 13
+Customer M1.4 arrived at 13
+Customer M1.4 has got the ticket 42 from seller M1 at 13
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.5 has left at 13
+Customer H.9 arrived at 13
+Customer H.9 has got the ticket 10 from seller H at 13
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2       X       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.10 has left at 13
+Customer L4.3 arrived at 14
+Customer L4.3 has got the ticket 89 from seller L4 at 14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.4 has left at 14
+Customer M3.4 arrived at 14
+Customer M3.4 has got the ticket 63 from seller M3 at 14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3       X
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.5 has left at 14
+Customer L6.3 arrived at 14
+Customer L6.3 has got the ticket 90 from seller L6 at 14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4       X       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.4 has left at 14
+Customer M2.5 arrived at 14
+Customer M2.5 has got the ticket 43 from seller M2 at 14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.6 has left at 14
+Customer L5.3 arrived at 15
+Customer L5.3 has got the ticket 71 from seller L5 at 15
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4       X       X       X       X       X       X       X
+    L5:3       X       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.4 has left at 15
+Customer L2.3 arrived at 15
+Customer L2.3 has got the ticket 72 from seller L2 at 15
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.4 has left at 15
+Customer M1.5 arrived at 15
+Customer M1.5 has got the ticket 64 from seller M1 at 15
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.6 has left at 15
+Customer H.10 arrived at 15
+Customer H.10 has got the ticket 11 from seller H at 15
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5       X       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.11 has left at 15
+Customer M2.6 arrived at 16
+Customer M2.6 has got the ticket 44 from seller M2 at 16
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.7 has left at 16
+Customer H.11 arrived at 16
+Customer H.11 has got the ticket 12 from seller H at 16
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3       X       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.12 has left at 16
+Customer L1.3 arrived at 17
+Customer L1.3 has got the ticket 73 from seller L1 at 17
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3    L1:3       X       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.4 has left at 17
+Customer L3.3 arrived at 17
+Customer L3.3 has got the ticket 74 from seller L3 at 17
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5       X       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.4 has left at 17
+Customer M3.5 arrived at 17
+Customer M3.5 has got the ticket 65 from seller M3 at 17
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.6 has left at 17
+Customer H.12 arrived at 17
+Customer H.12 has got the ticket 13 from seller H at 17
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3       X       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.13 has left at 17
+Customer L4.4 arrived at 18
+Customer L4.4 has got the ticket 75 from seller L4 at 18
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6       X       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.5 has left at 18
+Customer M1.6 arrived at 18
+Customer M1.6 has got the ticket 45 from seller M1 at 18
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.7 has left at 18
+Customer H.13 arrived at 18
+Customer H.13 has got the ticket 14 from seller H at 18
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4       X       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.14 has left at 18
+Customer L6.4 arrived at 19
+Customer L6.4 has got the ticket 76 from seller L6 at 19
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5       X       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.5 has left at 19
+Customer M1.7 arrived at 20
+Customer M1.7 has got the ticket 66 from seller M1 at 20
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6       X       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.8 has left at 20
+Customer M2.7 arrived at 20
+Customer M2.7 has got the ticket 46 from seller M2 at 20
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.8 has left at 20
+Customer H.14 arrived at 20
+Customer H.14 has got the ticket 15 from seller H at 20
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7       X       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer H.15 has left at 20
+Customer M3.6 arrived at 21
+Customer M3.6 has got the ticket 67 from seller M3 at 21
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4       X       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.7 has left at 21
+Customer L1.4 arrived at 22
+Customer L1.4 has got the ticket 77 from seller L1 at 22
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4       X       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.5 has left at 22
+Customer L3.4 arrived at 22
+Customer L3.4 has got the ticket 78 from seller L3 at 22
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4       X       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.5 has left at 22
+Customer L5.4 arrived at 22
+Customer L5.4 has got the ticket 79 from seller L5 at 22
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4       X
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.5 has left at 22
+Customer L2.4 arrived at 22
+Customer L2.4 has got the ticket 80 from seller L2 at 22
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7       X       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.5 has left at 22
+Customer M1.8 arrived at 22
+Customer M1.8 has got the ticket 47 from seller M1 at 22
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6       X       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M1.9 has left at 22
+Customer H.15 has left at 22
+Customer L4.5 arrived at 23
+Customer L4.5 has got the ticket 68 from seller L4 at 23
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5       X       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.6 has left at 23
+Customer M3.7 arrived at 24
+Customer M3.7 has got the ticket 69 from seller M3 at 24
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8       X       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M3.8 has left at 24
+Customer M2.8 arrived at 24
+Customer M2.8 has got the ticket 48 from seller M2 at 24
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7       X
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer M2.9 has left at 24
+H has finished with 0 customers left 
+Customer L6.5 arrived at 25
+Customer L6.5 has got the ticket 70 from seller L6 at 25
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8       X       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.6 has left at 25
+Customer M1.9 arrived at 25
+Customer M1.10 has left at 25
+Customer M3.8 arrived at 26
+Customer M3.9 has left at 26
+Customer L1.5 arrived at 27
+Customer L1.5 has got the ticket 49 from seller L1 at 27
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5       X
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.6 has left at 27
+Customer L5.5 arrived at 27
+Customer L5.5 has got the ticket 50 from seller L5 at 27
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.6 has left at 27
+Customer L2.5 arrived at 27
+Customer L2.5 has got the ticket 31 from seller L2 at 27
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5       X       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.6 has left at 27
+Customer M1.10 arrived at 27
+Customer M1.11 has left at 27
+Customer L4.6 arrived at 28
+Customer L4.6 has got the ticket 32 from seller L4 at 28
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6       X       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.7 has left at 28
+Customer M2.9 arrived at 28
+Customer M2.10 has left at 28
+Customer L3.5 arrived at 29
+Customer L3.5 has got the ticket 33 from seller L3 at 29
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5       X       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.6 has left at 29
+Customer M1.11 arrived at 29
+Customer M1.12 has left at 29
+Customer M3.9 arrived at 30
+Customer M3.10 has left at 30
+Customer L6.6 arrived at 31
+Customer L6.6 has got the ticket 34 from seller L6 at 31
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6       X       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.7 has left at 31
+Customer L5.6 arrived at 31
+Customer L5.6 has got the ticket 35 from seller L5 at 31
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6       X       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.7 has left at 31
+Customer L2.6 arrived at 31
+Customer L2.6 has got the ticket 36 from seller L2 at 31
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6       X       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.7 has left at 31
+Customer M2.10 arrived at 32
+Customer M2.11 has left at 32
+Customer L1.6 arrived at 33
+Customer L1.6 has got the ticket 37 from seller L1 at 33
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6       X       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L1.7 has left at 33
+Customer M1.12 arrived at 33
+Customer M1.13 has left at 33
+Customer M3.10 arrived at 34
+Customer M3.11 has left at 34
+Customer L3.6 arrived at 35
+Customer L3.6 has got the ticket 38 from seller L3 at 35
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6    L3:6       X       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L3.7 has left at 35
+Customer L4.7 arrived at 35
+Customer L4.7 has got the ticket 39 from seller L4 at 35
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6    L3:6    L4:7       X
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L4.8 has left at 35
+Customer L2.7 arrived at 35
+Customer L2.7 has got the ticket 40 from seller L2 at 35
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+       X       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6    L3:6    L4:7    L2:7
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L2.8 has left at 35
+Customer M1.13 arrived at 36
+Customer M1.14 has left at 36
+Customer M2.11 arrived at 36
+Customer M2.12 has left at 36
+Customer L5.7 arrived at 37
+Customer L5.7 has got the ticket 21 from seller L5 at 37
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+    L5:7       X       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6    L3:6    L4:7    L2:7
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L5.8 has left at 37
+Customer M3.11 arrived at 37
+Customer M3.12 has left at 37
+Customer L6.7 arrived at 38
+Customer L6.7 has got the ticket 22 from seller L6 at 38
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+    L5:7    L6:7       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6    L3:6    L4:7    L2:7
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Customer L6.8 has left at 38
+Customer M1.14 arrived at 38
+Customer M1.15 has left at 38
+Customer L4.8 has left at 39
+Customer M3.12 has left at 39
+Customer L1.7 has left at 40
+Customer M2.12 has left at 40
+Customer L3.7 has left at 41
+Customer L2.8 has left at 41
+Customer L6.8 has left at 42
+M3 has finished with 3 customers left 
+Customer L5.8 has left at 42
+Customer M1.15 has left at 42
+L4 has finished with 7 customers left 
+M2 has finished with 3 customers left 
+M1 has finished with 0 customers left 
+L1 has finished with 8 customers left 
+L2 has finished with 7 customers left 
+L5 has finished with 7 customers left 
+L3 has finished with 8 customers left 
+L6 has finished with 7 customers left 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     H:0     H:1     H:2     H:3     H:4     H:5     H:6     H:7     H:8     H:9
+    H:10    H:11    H:12    H:13    H:14       X       X       X       X       X
+    L5:7    L6:7       X       X       X       X       X       X       X       X
+    L2:5    L4:6    L3:5    L6:6    L5:6    L2:6    L1:6    L3:6    L4:7    L2:7
+    M1:3    M1:4    M2:5    M2:6    M1:6    M2:7    M1:8    M2:8    L1:5    L5:5
+    M1:0    M2:0    M3:0    M2:1    M1:1    M3:1    M1:2    M2:2    M3:2    M2:3
+    M3:3    M2:4    M3:4    M1:5    M3:5    M1:7    M3:6    L4:5    M3:7    L6:5
+    L5:3    L2:3    L1:3    L3:3    L4:4    L6:4    L1:4    L3:4    L5:4    L2:4
+    L1:1    L3:1    L6:2    L5:2    L2:2    L4:2    L1:2    L3:2    L4:3    L6:3
+    L2:0    L1:0    L3:0    L4:0    L5:0    L6:0    L4:1    L6:1    L5:1    L2:1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
