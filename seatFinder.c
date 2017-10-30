@@ -186,7 +186,7 @@ void *seatFinder(void *seller_args){
             arrival_event.event = Arrived;
             sprintf(arrival_event.seller_id, "%s", args.name);
             sprintf(arrival_event.customer_id, "%s.%d", args.name, args.current_index);
-            //add_event(pool, arrival_event);
+            add_event(pool, arrival_event);
 			
 			findSeat(&args, args.current_index);
 
