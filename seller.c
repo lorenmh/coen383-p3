@@ -23,7 +23,7 @@ void *seller(void *seller_args) {
 	}
 
 
-    //seatFinder(&args);
+    seatFinder(&args);
 
     return NULL;
 }

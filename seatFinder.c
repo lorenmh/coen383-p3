@@ -191,10 +191,6 @@ void *seatFinder(void *seller_args){
 
 			//printSeats();
 			thread_sleep(&args, temp);
-			
-			args.current_index++;
-			args.current_queue->size--;
-			numTickets-=tickets_sold;
 		}
 		quanta++;
 		pthread_mutex_unlock(&lock);
