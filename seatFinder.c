@@ -164,7 +164,7 @@ void findSeat(void *seller_args, int customer_index){
 void *seatFinder(void *seller_args){
 	seller_args_t args = *((seller_args_t *) seller_args);
 	bool done = false;
-	int current_arrival_time,  quanta = 0, total_tickets = 0;
+	int quanta = 0;
 	ending_quanta = 0;
 	start_time();
 
@@ -177,9 +177,10 @@ void *seatFinder(void *seller_args){
 
 		//printf("{%s} time: %d | tickets: %d\n", args.name,current_arrival_time, tickets_sold);
 
-
-		if (total_tickets < numTickets){
-			
+		if(numTickets == 0 || current_time() > MAX_ARRIVAL_TIME || args.current_queue->size <= 0){
+				done = true;
+				printf("Done\n");
+		} else{
 			event_t arrival_event;
             arrival_event.time_stamp = current_time();
             arrival_event.event = Arrived;
@@ -189,21 +190,13 @@ void *seatFinder(void *seller_args){
 			
 			findSeat(&args, args.current_index);
 
-			printf("{%zu} %s sold a ticket. There are %d tickets remaining\n", args.current_queue->size,args.name, numTickets);
-			//printSeats();
+			//printf("{%zu} %s sold a ticket. There are %d tickets remaining\n", args.current_queue->size,args.name, numTickets);
+			printSeats();
 
 			numTickets--;
-			total_tickets++;
 
 			args.current_queue->size--;
 			args.current_index++;
-			
-			
-		}
-
-		if(numTickets == 0 || current_time() > MAX_ARRIVAL_TIME || args.current_queue->size <= 0){
-				done = true;
-				printf("Done\n");
 		}
 		
 		quanta++;
