@@ -49,6 +49,8 @@ int main(int argc, char *argv[]) {
         }
     }
 
+	printSeats();
+
     event_pool_destroy(pool);
     removeLock();
 

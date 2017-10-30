@@ -105,7 +105,7 @@ void findSeat(void *seller_args, int customer_index){
 		
 		for(int i = 0; i < ROW; i++){
 			for(int j = 0; j < COLUMN; j++){
-				if(*seating[i][j] == 'X'){
+				if(strcmp(seating[i][j], "X") == 0){
 					seating[i][j] = args.current_queue->buf[customer_index].name;
 					seat_event.seat_num = (i*10)+j+1;
 					add_event(pool, seat_event);
@@ -117,7 +117,7 @@ void findSeat(void *seller_args, int customer_index){
 		if(middle_flag == 0){
 			for(int i = 5; i < ROW; i++){
 				for(int j = 0; j < COLUMN; j++){
-					if(*seating[i][j] == 'X'){
+				  if(strcmp(seating[i][j], "X") == 0){
 						seating[i][j] = args.current_queue->buf[customer_index].name;
 						seat_event.seat_num = (i*10)+j+1;
 						add_event(pool, seat_event);
@@ -129,7 +129,7 @@ void findSeat(void *seller_args, int customer_index){
 		} else if(middle_flag == 1){
 			for(int i = 5; i >= 0;i--){
 				for(int j = 0; j < COLUMN; j++){
-					if(*seating[i][j] == 'X'){
+			       if(strcmp(seating[i][j], "X") == 0){
 						seating[i][j] = args.current_queue->buf[customer_index].name;
 						seat_event.seat_num = (i*10)+j+1;
 						add_event(pool, seat_event);
@@ -142,7 +142,7 @@ void findSeat(void *seller_args, int customer_index){
 	} else if(args.priority == LOW_PRIORITY){
 		for(int i = ROW - 1; i >= 0; i--){
 			for(int j = 0; j < COLUMN; j++){
-				if(*seating[i][j] == 'X'){
+				if(strcmp(seating[i][j], "X") == 0){
 					seating[i][j] = args.current_queue->buf[customer_index].name;
 					seat_event.seat_num = (i*10)+j+1;
 					add_event(pool, seat_event);
