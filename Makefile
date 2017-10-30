@@ -5,9 +5,9 @@ CMD=$(CC) $(CFLAGS)
 COMPILE=$(CMD) -g -c -pthread
 
 #FILES=Main.o MinHeap.o Process.o RandomNumberGenerator.o Output.o Scheduler.o
-FILES=main.o customer.o seller.o seatFinder.o
+FILES=main.o customer.o seller.o seatFinder.o event.o
 
-all: main.o customer.o seller.o seatFinder.o
+all: main.o customer.o seller.o seatFinder.o event.o
 	$(CMD) $(FILES) -g -o app.bin
 
 clean:
@@ -24,3 +24,6 @@ seller.o: seller.c seller.h
 
 seatFinder.o: seatFinder.c seatFinder.h
 	$(COMPILE) seatFinder.c
+
+event.o: event.c event.h
+	$(COMPILE) event.c

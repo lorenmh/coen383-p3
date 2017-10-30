@@ -31,7 +31,7 @@ customer_queue_t *create_customer_queue(int num_customers) {
         queue->buf[i].tickets_wanted = t_wanted;
 
         event_t event = {Arrived, 0, queue->buf[i].arrival_time};
-        add_event(&pool, event);
+        add_event(pool, event); 
     }
 
     qsort(queue->buf, num_customers, customer_t_sz, customer_comparator);

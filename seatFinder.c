@@ -12,6 +12,7 @@
 #include "event.h"
 
 static int numTickets = SEAT_BUF_SIZE;
+struct event_pool *pool;
 
 pthread_mutex_t lock;
 pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
@@ -45,19 +46,19 @@ void thread_sleep(void *seller_args, int tickets_sold){
 		rand_t = rand() % 2;
 		s_time = HSLEEP[rand_t];
 		event_t event = {Left, tickets_sold, args.current_queue->buf[args.current_index].arrival_time};
-		add_event(&pool, event);
+		add_event(pool, event);
 		sleep(s_time);
 	} else if(args.priority == MEDIUM_PRIORITY){
 		rand_t = rand() % 3;
 		s_time = MSLEEP[rand_t];
 		event_t event = {Left, tickets_sold, args.current_queue->buf[args.current_index].arrival_time};
-		add_event(&pool, event);
+		add_event(pool, event);
 		sleep(s_time);
 	} else if(args.priority == LOW_PRIORITY){
 		rand_t = rand() % 4;
 		s_time = LSLEEP[rand_t];
 		event_t event = {Left, tickets_sold, args.current_queue->buf[args.current_index].arrival_time};
-		add_event(&pool, event);
+		add_event(pool, event);
 		sleep(s_time);
 	}
 }
@@ -100,7 +101,7 @@ void findSeat(void *seller_args, int customer_index){
 					seatAssign = (i*10)+j+1;
 					seating[i][j] = args.current_queue->buf[customer_index].name;
 					event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-					add_event(&pool, event);
+					add_event(pool, event);
 					return;
 				}
 			}
@@ -113,7 +114,7 @@ void findSeat(void *seller_args, int customer_index){
 						seatAssign = (i*10)+j+1;
 						seating[i][j] = args.current_queue->buf[customer_index].name;
 						event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-						add_event(&pool, event);
+						add_event(pool, event);
 						middle_flag = 1;
 						return;
 					}
@@ -126,7 +127,7 @@ void findSeat(void *seller_args, int customer_index){
 						seatAssign = (i*10)+j+1;
 						seating[i][j] = args.current_queue->buf[customer_index].name;
 						event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-						add_event(&pool, event);
+						add_event(pool, event);
 						middle_flag = 0;
 						return;
 					}
@@ -140,7 +141,7 @@ void findSeat(void *seller_args, int customer_index){
 					seatAssign = (i*10)+j+1;
 					seating[i][j] = args.current_queue->buf[customer_index].name;
 					event_t event = {Informed, seatAssign, args.current_queue->buf[args.current_index].arrival_time};
-					add_event(&pool, event);
+					add_event(pool, event);
 					return;
 				}
 			}
@@ -188,8 +189,8 @@ void *seatFinder(void *seller_args){
 			args.current_index++;
 			args.current_queue->size--;
 
-			printSeats();
-			thread_sleep(&args, temp, args.current_index);
+			//printSeats();
+			thread_sleep(&args, temp);
 			
 			args.current_index++;
 			args.current_queue->size--;

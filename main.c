@@ -48,8 +48,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-
-    event_pool_destroy(&pool);
+    event_pool_destroy(pool);
     removeLock();
 
 
