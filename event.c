@@ -31,13 +31,18 @@ struct event_pool {
 void event_print(event_t event) {
     switch (event.event) {
         case Arrived:
-            printf("Customer arrived ");
+            printf("Customer %s arrived ", event.customer_id);
             break;
         case Informed:
-            printf("Customer has got the ticket %d ", event.seat_num);
+            if (event.seat_num != -1) {
+                printf("Customer %s has got the ticket %d from seller %s ", event.customer_id, event.seat_num, event.seller_id);
+            }else {
+                printf("Customer %s does not have a ticket from seller %s ",event.customer_id, event.seller_id);
+            }
+
             break;
         case Left:
-            printf("Customer has left ");
+            printf("Customer %s has left ", event.customer_id);
             break;
 
     }

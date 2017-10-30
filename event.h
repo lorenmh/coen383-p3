@@ -11,6 +11,8 @@ typedef struct {
     Event event;
     int seat_num;
     int time_stamp;
+    char customer_id[5];
+    char seller_id[5];
 } event_t;
 
 
