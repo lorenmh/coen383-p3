@@ -187,10 +187,9 @@ void *seatFinder(void *seller_args){
             sprintf(arrival_event.customer_id, "%s.%d", args.name, args.current_index);
             //add_event(pool, arrival_event);
 			
-
 			findSeat(&args, args.current_index);
 
-			printf("{%zu} %s sold %d tickets. There are %d tickets remaining\n", args.current_queue->size,args.name, temp_tickets, numTickets);
+			printf("{%zu} %s sold a ticket. There are %d tickets remaining\n", args.current_queue->size,args.name, numTickets);
 			//printSeats();
 
 			numTickets--;
