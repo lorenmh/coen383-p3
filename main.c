@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
     seller_args_t args[10];
     pthread_t threads[10];
     
-    struct event_pool *pool = event_pool_init();
+    pool = event_pool_init();
 
     initSeats();    
     initLock();

@@ -21,6 +21,8 @@ typedef struct {
     customer_t *buf;
 } customer_queue_t;
 
+extern struct event_pool *pool;
+
 customer_queue_t *create_customer_queue(int num_customers);
 customer_queue_t *create_completed_queue(int num_customers);
 
