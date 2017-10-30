@@ -33,6 +33,7 @@ void event_print(event_t event) {
     switch (event.event) {
         case Arrived:
             printf("Customer %s arrived ", event.customer_id);
+            printf("at %d\n", event.time_stamp);
             break;
         case Informed:
             if (event.seat_num != -1) {
@@ -41,14 +42,15 @@ void event_print(event_t event) {
             }else {
                 printf("Customer %s does not have a ticket from seller %s ",event.customer_id, event.seller_id);
             }
-
+            printf("at %d\n", event.time_stamp);
             break;
         case Left:
             printf("Customer %s has left ", event.customer_id);
+            printf("at %d\n", event.time_stamp);
             break;
 
     }
-    printf("at %d\n", event.time_stamp);
+
 }
 
 void* real_time_printer(void *event_pool) {
